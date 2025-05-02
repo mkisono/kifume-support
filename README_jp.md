@@ -133,3 +133,7 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 
 いずれの場合も、手作業による修正が必要となります。正確な記録のためにも、イリーガルムーブを避けるよう心がけましょう。
 
+
+## 既知の問題
+
+GitHub の [Issues](https://github.com/mkisono/kifume-support/issues) を参照してください。
