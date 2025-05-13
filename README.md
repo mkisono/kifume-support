@@ -40,8 +40,9 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 
 ✅ **Recommended: Recording Mode**
 - Record in **Full HD (1920 x 1080 pixels)**
-- Use **time-lapse mode** to significantly reduce upload time
+- Use **time-lapse video mode** to significantly reduce upload time
   - Recommended setting: 0.5 second interval
+  - Videos recorded with intervals longer than 1 second cannot be properly recognized
 - Position the camera in landscape mode
 - When using an action camera, use the **distortion correction mode** as lens distortion can interfere with recognition
 
@@ -90,6 +91,9 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 ✅ **Recommended: Using Chess Clocks**
 - Use chess clocks for your matches
 
+✅ **Recommended: ELITE Precision Dice**
+- [ELITE Precision Dice](https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy) sold by Backgammon Galaxy have minimal light reflection, making them ideal for use with kifu.me.
+
 ❌ **Not Recommended: Using Baffle Boxes**
 - kifu.me assumes that each player **rolls dice on the right side of the board**
 - If both players use baffle boxes, it becomes difficult to determine whose turn it is, leading to incorrect records
@@ -118,6 +122,18 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 
 ## FAQ
 
+**Q:** My video file is larger than 3GB and I can't upload it.
+
+**A:** You can use [ffmpeg](https://ffmpeg.org/) to reduce the file size.
+
+The following command will create a video with reduced frames (2 frames per second), significantly decreasing the file size. When uploading this processed file, select the `Normal Video` option.
+
+```
+ffmpeg -i input.mp4 -vf="fps=2" output.mp4
+```
+
+If ffmpeg is not installed on your system, you'll need to install it first. Visit the [ffmpeg website](https://ffmpeg.org/download.html) for installation instructions.
+
 **Q:** Will illegal moves be correctly recognized?
 
 **A:** No. If there are illegal moves, one of the following will happen:
@@ -126,6 +142,10 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 - The move will be recorded with a corrected dice roll different from the actual roll
 
 In either case, manual correction will be necessary. For accurate records, try to avoid illegal moves.
+
+**Q:** I've uploaded my video, but I can't click the Submit button.
+
+**A:** The Submit button will be disabled if the "Player Names" field is empty. Make sure to enter names for both players before trying to submit.
 
 ## Known Issues
 

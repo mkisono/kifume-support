@@ -41,8 +41,9 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 
 ✅ **推奨: 撮影モード**  
 - **Full HD（1920 x 1080ピクセル）** で撮影してください。  
-- **タイムラプスモード**を使用すると、アップロード時間を大幅に短縮できます。  
-  - 推奨設定：0.5秒インターバル  
+- **タイムラプス動画モード**を使用すると、アップロード時間を大幅に短縮できます。  
+  - 推奨設定：0.5秒インターバル
+  - 1秒以上のインターバルで撮影した動画は、正しく認識できません。  
 - カメラは横位置(landscape)で撮影してください。
 - アクションカメラを使用する場合、レンズ歪みが大きいと正しく認識できません。必ず**歪み補正モード**を使用してください。
 
@@ -52,20 +53,20 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 ### 撮影例
 
 #### ✅推奨される撮影方法
-![推奨撮影例](https://github.com/mkisono/kifume-support/blob/update-doc/image/Screenshot%202025-05-02%20at%2010.36.00.png?raw=true)
+![推奨撮影例](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.36.00.png?raw=true)
 
 *ボードの真上から撮影されており、ボードの全体が映っている良い例*
 
 #### ❌避けるべき撮影方法
-![レンズ歪みの例](https://github.com/mkisono/kifume-support/blob/update-doc/image/Screenshot%202025-05-02%20at%2010.28.41.png?raw=true)
+![レンズ歪みの例](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.41.png?raw=true)
 
 *レンズ歪みが大きい例 - 歪み補正機能を使いましょう*
 
-![不適切な角度の例1](https://github.com/mkisono/kifume-support/blob/update-doc/image/Screenshot%202025-05-02%20at%2010.28.05.png?raw=true)
+![不適切な角度の例1](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.05.png?raw=true)
 
 *横から撮影している例 - カメラをボードの真上に設置しましょう*
 
-![不適切な角度の例2](https://github.com/mkisono/kifume-support/blob/update-doc/image/Screenshot%202025-05-02%20at%2010.28.23.png?raw=true)
+![不適切な角度の例2](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.23.png?raw=true)
 
 *ボードの手前から撮影している例 - カメラをボードの真上に設置しましょう*
 
@@ -93,13 +94,16 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 ✅ **推奨: チェスクロックの使用**  
 - 対局にはチェスクロックを使ってください。
 
+✅ **推奨: ELITE Precision Dice**  
+- Backgammon Galaxy が販売している [ELITE Precision Dice](https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy) は照明による反射が少なく、kifu.me での使用に適しています。
+
 ❌ **非推奨: バッフルボックスの使用**
 - kifu.me は、それぞれのプレイヤーが**ボードの右側にダイスを振る**ことを前提にしています。  
 - 両プレイヤーがバッフルボックスを使用すると、ターンプレイヤー判定が難しく、記録が正しく行えません。
 
 ❌ **非推奨: 特殊なデザインのダイス**
 - 通常とは異なるデザインのダイスは正しく認識できないため、使用しないでください。
-  - 使用してはならないダイスの例:  ![特殊なダイスの例](https://github.com/mkisono/kifume-support/blob/update-doc/image/dice.png?raw=true)
+  - 使用してはならないダイスの例:  ![特殊なダイスの例](https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true)
 
 
 ### チェッカー
@@ -124,6 +128,18 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 
 ## よくある質問
 
+**Q:** 動画ファイルのサイズが 3GB 以上あるのでアップロードできません。
+
+**A:** [ffmpeg](https://ffmpeg.org/) を使ってファイルサイズを小さくすることができます。
+
+以下のコマンドを実行すると、1秒あたり2フレームに間引いた動画ファイルが作成され、ファイルサイズを大幅に減らすことができます。このファイルをアップロードする場合は、`Normal Video` のオプションを選択してください。
+
+```
+ffmpeg -i 元の動画ファイル名.mp4 -vf="fps=2" 出力ファイル名.mp4
+```
+
+ffmpeg がインストールされていない場合は、インストールしてください。
+
 **Q:** イリーガルムーブをした場合も、正しく認識されますか？
 
 **A:** いいえ。イリーガルムーブがあった場合は、以下のいずれかの状態になります：
@@ -132,6 +148,10 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 - 実際の出目とは異なる出目に補正されて記録される
 
 いずれの場合も、手作業による修正が必要となります。正確な記録のためにも、イリーガルムーブを避けるよう心がけましょう。
+
+**Q:** 動画のアップロードは完了しましたが、Submit ボタンを押すことができません。
+
+**A:** アップロード画面の「Player Names」欄（対局者名を入力する欄）が未入力の場合、Submit ボタンは無効化されています。両プレイヤーの名前を入力してから再度お試しください。
 
 
 ## 既知の問題
