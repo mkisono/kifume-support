@@ -90,6 +90,9 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 ✅ **Recommended: Using Chess Clocks**
 - Use chess clocks for your matches
 
+✅ **Recommended: ELITE Precision Dice**
+- [ELITE Precision Dice](https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy) sold by Backgammon Galaxy have minimal light reflection, making them ideal for use with kifu.me.
+
 ❌ **Not Recommended: Using Baffle Boxes**
 - kifu.me assumes that each player **rolls dice on the right side of the board**
 - If both players use baffle boxes, it becomes difficult to determine whose turn it is, leading to incorrect records
@@ -126,6 +129,10 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 - The move will be recorded with a corrected dice roll different from the actual roll
 
 In either case, manual correction will be necessary. For accurate records, try to avoid illegal moves.
+
+**Q:** I've uploaded my video, but I can't click the Submit button.
+
+**A:** The Submit button will be disabled if the "Player Names" field is empty. Make sure to enter names for both players before trying to submit.
 
 ## Known Issues
 
