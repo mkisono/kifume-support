@@ -122,6 +122,18 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 
 ## FAQ
 
+**Q:** My video file is larger than 3GB and I can't upload it.
+
+**A:** You can use [ffmpeg](https://ffmpeg.org/) to reduce the file size.
+
+The following command will create a video with reduced frames (2 frames per second), significantly decreasing the file size. When uploading this processed file, select the `Normal Video` option.
+
+```
+ffmpeg -i input.mp4 -vf="fps=2" output.mp4
+```
+
+If ffmpeg is not installed on your system, you'll need to install it first. Visit the [ffmpeg website](https://ffmpeg.org/download.html) for installation instructions.
+
 **Q:** Will illegal moves be correctly recognized?
 
 **A:** No. If there are illegal moves, one of the following will happen:
