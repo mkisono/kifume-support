@@ -41,8 +41,9 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 
 ✅ **推奨: 撮影モード**  
 - **Full HD（1920 x 1080ピクセル）** で撮影してください。  
-- **タイムラプスモード**を使用すると、アップロード時間を大幅に短縮できます。  
-  - 推奨設定：0.5秒インターバル  
+- **タイムラプス動画モード**を使用すると、アップロード時間を大幅に短縮できます。  
+  - 推奨設定：0.5秒インターバル
+  - 1秒以上のインターバルで撮影した動画は、正しく認識できません。  
 - カメラは横位置(landscape)で撮影してください。
 - アクションカメラを使用する場合、レンズ歪みが大きいと正しく認識できません。必ず**歪み補正モード**を使用してください。
 
@@ -52,20 +53,20 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 ### 撮影例
 
 #### ✅推奨される撮影方法
-![推奨撮影例](https://github.com/mkisono/kifume-support/blob/update-doc/image/Screenshot%202025-05-02%20at%2010.36.00.png?raw=true)
+![推奨撮影例](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.36.00.png?raw=true)
 
 *ボードの真上から撮影されており、ボードの全体が映っている良い例*
 
 #### ❌避けるべき撮影方法
-![レンズ歪みの例](https://github.com/mkisono/kifume-support/blob/update-doc/image/Screenshot%202025-05-02%20at%2010.28.41.png?raw=true)
+![レンズ歪みの例](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.41.png?raw=true)
 
 *レンズ歪みが大きい例 - 歪み補正機能を使いましょう*
 
-![不適切な角度の例1](https://github.com/mkisono/kifume-support/blob/update-doc/image/Screenshot%202025-05-02%20at%2010.28.05.png?raw=true)
+![不適切な角度の例1](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.05.png?raw=true)
 
 *横から撮影している例 - カメラをボードの真上に設置しましょう*
 
-![不適切な角度の例2](https://github.com/mkisono/kifume-support/blob/update-doc/image/Screenshot%202025-05-02%20at%2010.28.23.png?raw=true)
+![不適切な角度の例2](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.23.png?raw=true)
 
 *ボードの手前から撮影している例 - カメラをボードの真上に設置しましょう*
 
@@ -102,7 +103,7 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 
 ❌ **非推奨: 特殊なデザインのダイス**
 - 通常とは異なるデザインのダイスは正しく認識できないため、使用しないでください。
-  - 使用してはならないダイスの例:  ![特殊なダイスの例](https://github.com/mkisono/kifume-support/blob/update-doc/image/dice.png?raw=true)
+  - 使用してはならないダイスの例:  ![特殊なダイスの例](https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true)
 
 
 ### チェッカー

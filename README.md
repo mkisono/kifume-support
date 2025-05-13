@@ -40,8 +40,9 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 
 ✅ **Recommended: Recording Mode**
 - Record in **Full HD (1920 x 1080 pixels)**
-- Use **time-lapse mode** to significantly reduce upload time
+- Use **time-lapse video mode** to significantly reduce upload time
   - Recommended setting: 0.5 second interval
+  - Videos recorded with intervals longer than 1 second cannot be properly recognized
 - Position the camera in landscape mode
 - When using an action camera, use the **distortion correction mode** as lens distortion can interfere with recognition
 
