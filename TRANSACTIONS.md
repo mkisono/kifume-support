@@ -9,7 +9,7 @@ Ebina City, Kanagawa Prefecture
 243-0432 Japan
 
 ## Contact Information
-Email: mkisono@gmail.com
+Email: support@kifu.me
 - We only accept inquiries by email
 
 ## Service Fees

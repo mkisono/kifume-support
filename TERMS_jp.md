@@ -116,7 +116,7 @@
 
 本規約に関するお問い合わせは、以下の連絡先までお願いいたします。
 
-メールアドレス: [mkisono@gmail.com](mailto:mkisono@gmail.com)
+メールアドレス: [support@kifu.me](mailto:support@kifu.me)
 
 ---
 

@@ -108,7 +108,7 @@ To exercise these rights, please contact us using the contact information in Sec
 
 For inquiries regarding this Privacy Policy, please contact the following:
 
-Email: [mkisono@gmail.com](mailto:mkisono@gmail.com)
+Email: [support@kifu.me](mailto:support@kifu.me)
 
 ---
 
