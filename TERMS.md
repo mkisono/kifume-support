@@ -1,6 +1,6 @@
 # kifu.me Terms of Service
 
-Last Updated: May 21, 2025
+Last Updated: May 22, 2025
 
 ## 1. Introduction
 
@@ -116,7 +116,7 @@ Users must not engage in the following activities when using the Service:
 
 For inquiries regarding these Terms, please contact the following:
 
-Email: [mkisono@gmail.com](mailto:mkisono@gmail.com)
+Email: [support@kifu.me](mailto:support@kifu.me)
 
 ---
 

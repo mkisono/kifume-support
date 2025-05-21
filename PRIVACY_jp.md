@@ -1,6 +1,6 @@
 # kifu.me プライバシーポリシー
 
-最終更新日: 2025年5月21日
+最終更新日: 2025年5月22日
 
 ## 1. はじめに
 
@@ -108,7 +108,7 @@ kifu.me（以下「当サービス」といいます）は、ユーザーの皆�
 
 プライバシーポリシーに関するお問い合わせは、以下の連絡先までお願いいたします。
 
-メールアドレス: [mkisono@gmail.com](mailto:mkisono@gmail.com)
+メールアドレス: [support@kifu.me](mailto:support@kifu.me)
 
 ---
 
