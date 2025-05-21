@@ -1,6 +1,6 @@
 # kifu.me Privacy Policy
 
-Last Updated: May 21, 2025
+Last Updated: May 22, 2025
 
 ## 1. Introduction
 
