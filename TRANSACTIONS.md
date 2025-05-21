@@ -44,6 +44,7 @@ Email: mkisono@gmail.com
 - Cancellation or refund after ticket purchase is not available
 - No refunds will be provided even for unused tickets
 - If tickets are not properly consumed due to system issues, tickets will be reissued
+- If the service is terminated for reasons attributable to the service provider, unused tickets will be refunded after deducting a handling fee
 
 ## Operating Environment
 - Recommended browsers: Latest versions of Google Chrome, Safari, and Microsoft Edge
