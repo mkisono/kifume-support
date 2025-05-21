@@ -1,7 +1,7 @@
 # Information Based on the Japanese Specified Commercial Transaction Act
 
 ## Seller
-Masaatsu Kisono
+Masahiro Kisono
 
 ## Address
 1-17-6-406 Chuo
