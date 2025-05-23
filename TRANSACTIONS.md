@@ -1,5 +1,7 @@
 # Information Based on the Japanese Specified Commercial Transaction Act
 
+English | [日本語](TRANSACTIONS_jp.md)
+
 ## Seller
 Masahiro Kisono
 
