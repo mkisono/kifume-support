@@ -1,5 +1,7 @@
 # kifu.me Privacy Policy
 
+English | [日本語](PRIVACY_jp.md)
+
 Last Updated: May 22, 2025
 
 ## 1. Introduction
