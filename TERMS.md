@@ -1,5 +1,7 @@
 # kifu.me Terms of Service
 
+English | [日本語](TERMS_jp.md)
+
 Last Updated: May 22, 2025
 
 ## 1. Introduction
