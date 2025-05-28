@@ -136,6 +136,8 @@ Dice rolls may be highlighted in red for the following reasons:
 - **Misrecognition due to dice reflection**: Dice reflection caused the image recognition to produce incorrect results
   - If the corrected roll matches the actual roll, no match record correction is needed
   - Common mix-ups include 11 and 13, or 22 and 26
+- **Only one die recognized**: When image recognition could identify only one of the two dice
+  - This is shown as 20, 50, etc. The roll needs correction
 - **Correction due to illegal moves**: When actual play was an illegal move, the system corrected it to a different roll
   - In this case, you need to correct the roll to the actual one
 - **Dance misrecognition**: When dice are highlighted in red and the move shows "Cannot Move"
