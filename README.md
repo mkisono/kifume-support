@@ -20,7 +20,7 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 
 1. **[Upload](https://kifu.me/upload) your video**
    - Record the board properly (see [Video Recording](#video-recording) section for details)
-   - Maximum video size is 3GB
+   - Maximum video size is 4GB
    - If your match is split into multiple files, you can upload multiple files
      - Files must be in sequential order
      - You can upload up to 10 files in total
@@ -166,7 +166,7 @@ Objects other than the doubling cube (dice, checkers, watches, smartphones, etc.
 
 ## FAQ
 
-**Q:** My video file is larger than 3GB and I can't upload it.
+**Q:** My video file is larger than 4GB and I can't upload it.
 
 **A:** You can use [ffmpeg](https://ffmpeg.org/) to reduce the file size.
 
