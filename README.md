@@ -95,10 +95,6 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 ✅ **Recommended: ELITE Precision Dice**
 - [ELITE Precision Dice](https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy) sold by Backgammon Galaxy have minimal light reflection, making them ideal for use with kifu.me.
 
-❌ **Not Recommended: Using Baffle Boxes**
-- kifu.me assumes that each player **rolls dice on the right side of the board**
-- If both players use baffle boxes, it becomes difficult to determine whose turn it is, leading to incorrect records
-
 ❌ **Not Recommended: Special Design Dice**
 - Dice with non-standard designs cannot be correctly recognized
   - Example of dice not to use: ![Special dice example](https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true)
@@ -187,9 +183,10 @@ If ffmpeg is not installed on your system, you'll need to install it first. Visi
 
 In either case, manual correction will be necessary. For accurate records, try to avoid illegal moves.
 
-**Q:** I've uploaded my video, but I can't click the Submit button.
+**Q:** There is an incorrectly recorded game. Can I delete a specific game and get the match record?
 
-**A:** The Submit button will be disabled if the "Player Names" field is empty. Make sure to enter names for both players before trying to submit.
+**A:** It is not possible to delete a specific game and get the match record.
+
 
 ## Known Issues
 
