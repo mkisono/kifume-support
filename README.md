@@ -183,9 +183,10 @@ If ffmpeg is not installed on your system, you'll need to install it first. Visi
 
 In either case, manual correction will be necessary. For accurate records, try to avoid illegal moves.
 
-**Q:** I've uploaded my video, but I can't click the Submit button.
+**Q:** There is an incorrectly recorded game. Can I delete a specific game and get the match record?
 
-**A:** The Submit button will be disabled if the "Player Names" field is empty. Make sure to enter names for both players before trying to submit.
+**A:** It is not possible to delete a specific game and get the match record.
+
 
 ## Known Issues
 
