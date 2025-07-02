@@ -95,10 +95,6 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 ✅ **Recommended: ELITE Precision Dice**
 - [ELITE Precision Dice](https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy) sold by Backgammon Galaxy have minimal light reflection, making them ideal for use with kifu.me.
 
-❌ **Not Recommended: Using Baffle Boxes**
-- kifu.me assumes that each player **rolls dice on the right side of the board**
-- If both players use baffle boxes, it becomes difficult to determine whose turn it is, leading to incorrect records
-
 ❌ **Not Recommended: Special Design Dice**
 - Dice with non-standard designs cannot be correctly recognized
   - Example of dice not to use: ![Special dice example](https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true)

@@ -98,10 +98,6 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 ✅ **推奨: ELITE Precision Dice**  
 - Backgammon Galaxy が販売している [ELITE Precision Dice](https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy) は照明による反射が少なく、kifu.me での使用に適しています。
 
-❌ **非推奨: バッフルボックスの使用**
-- kifu.me は、それぞれのプレイヤーが**ボードの右側にダイスを振る**ことを前提にしています。  
-- 両プレイヤーがバッフルボックスを使用すると、ターンプレイヤー判定が難しく、記録が正しく行えません。
-
 ❌ **非推奨: 特殊なデザインのダイス**
 - 通常とは異なるデザインのダイスは正しく認識できないため、使用しないでください。
   - 使用してはならないダイスの例:  ![特殊なダイスの例](https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true)
