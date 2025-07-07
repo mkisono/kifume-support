@@ -15,6 +15,7 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
   - [ボード](#ボード)
 - [棋譜確認のポイント](#棋譜確認のポイント)
 - [よくある質問](#よくある質問)
+- [既知の問題](#既知の問題)
 
 ## 使い方
 
@@ -198,3 +199,8 @@ ffmpeg がインストールされていない場合は、インストールし�
 ## 既知の問題
 
 GitHub の [Issues](https://github.com/mkisono/kifume-support/issues) を参照してください。
+
+
+## チラシ
+
+![チラシ](https://github.com/mkisono/kifume-support/blob/main/image/flyer.png?raw=true)

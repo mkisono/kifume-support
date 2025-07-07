@@ -15,6 +15,7 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
   - [Board](#board)
 - [Match Record Review Guidelines](#match-record-review-guidelines)
 - [FAQ](#faq)
+- [Known Issues](#known-issues)
 
 ## How to Use
 
@@ -191,3 +192,8 @@ In either case, manual correction will be necessary. For accurate records, try t
 ## Known Issues
 
 Please refer to the [Issues](https://github.com/mkisono/kifume-support/issues) on GitHub.
+
+
+## Flyer
+
+![Flyer](https://github.com/mkisono/kifume-support/blob/main/image/flyer.png?raw=true)
