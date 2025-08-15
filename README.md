@@ -15,6 +15,7 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
   - [Board](#board)
 - [Match Record Review Guidelines](#match-record-review-guidelines)
 - [FAQ](#faq)
+- [Useful Information](#useful-information)
 - [Known Issues](#known-issues)
 
 ## How to Use
@@ -48,8 +49,6 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 - Position the camera in landscape mode
 - When using an action camera, use the **distortion correction mode** as lens distortion can interfere with recognition
 
-❌ **Not Recommended: Recording Settings**
-- Do not use resolutions higher than Full HD as they cannot be processed
 
 ### Recording Examples
 
@@ -187,6 +186,11 @@ In either case, manual correction will be necessary. For accurate records, try t
 **Q:** There is an incorrectly recorded game. Can I delete a specific game and get the match record?
 
 **A:** It is not possible to delete a specific game and get the match record.
+
+
+## Useful Information
+
+Please refer to the [Tips](https://github.com/mkisono/kifume-support/issues?q=is%3Aissue%20state%3Aopen%20label%3Atips) on GitHub.
 
 
 ## Known Issues
