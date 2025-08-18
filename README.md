@@ -1,6 +1,16 @@
+---
+layout: default
+title: kifu.me Support
+description: Support documentation for kifu.me - an assistant for entering backgammon match records
+lang: en
+---
+
 # kifu.me support page
 
-English | [日本語](README_jp.md)
+<div class="language-switcher">
+  <a href="/README.html" class="active">English</a>
+  <a href="/README_jp.html">日本語</a>
+</div>
 
 kifu.me is an assistant for entering backgammon match records. It helps you efficiently record games compared to manual entry.
 
@@ -36,86 +46,153 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 
 ### Video Recording
 
-✅ **Recommended: Camera Position and Settings**
-- Secure the camera firmly
-- Record from directly above the board (recording from an angle is not supported)
-- Adjust the frame to ensure the entire board is visible
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: Camera Position and Settings</strong>
+<ul>
+<li>Secure the camera firmly</li>
+<li>Record from directly above the board (recording from an angle is not supported)</li>
+<li>Adjust the frame to ensure the entire board is visible</li>
+</ul>
+</div>
 
-✅ **Recommended: Recording Mode**
-- Record in **Full HD (1920 x 1080 pixels)**
-- Use **time-lapse video mode** to significantly reduce upload time
-  - Recommended setting: 0.5 second interval
-  - Videos recorded with intervals longer than 1 second cannot be properly recognized
-- Position the camera in landscape mode
-- When using an action camera, use the **distortion correction mode** as lens distortion can interfere with recognition
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: Recording Mode</strong>
+<ul>
+<li>Record in <strong>Full HD (1920 x 1080 pixels)</strong></li>
+<li>Use <strong>time-lapse video mode</strong> to significantly reduce upload time
+<ul>
+<li>Recommended setting: 0.5 second interval</li>
+<li>Videos recorded with intervals longer than 1 second cannot be properly recognized</li>
+</ul>
+</li>
+<li>Position the camera in landscape mode</li>
+<li>When using an action camera, use the <strong>distortion correction mode</strong> as lens distortion can interfere with recognition</li>
+</ul>
+</div>
 
 
 ### Recording Examples
 
-#### ✅ Recommended Recording Method
-![Recommended recording example](https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.36.00.png)
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended Recording Method</strong>
+<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.36.00.png" alt="Recommended recording example"></p>
+<p><em>Good example: Recorded from directly above the board with the entire board visible</em></p>
+</div>
 
-*Good example: Recorded from directly above the board with the entire board visible*
+<div class="highlight-box warning">
+<span class="emoji-indicator">❌</span><strong>Methods to Avoid</strong>
+<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.41.png" alt="Lens distortion example"></p>
+<p><em>Example with significant lens distortion - Use distortion correction feature</em></p>
 
-#### ❌ Methods to Avoid
-![Lens distortion example](https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.41.png)
+<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.05.png" alt="Improper angle example 1"></p>
+<p><em>Example recorded from the side - Position the camera directly above the board</em></p>
 
-*Example with significant lens distortion - Use distortion correction feature*
-
-![Improper angle example 1](https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.05.png)
-
-*Example recorded from the side - Position the camera directly above the board*
-
-![Improper angle example 2](https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.23.png)
-
-*Example recorded from the front - Position the camera directly above the board*
+<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.23.png" alt="Improper angle example 2"></p>
+<p><em>Example recorded from the front - Position the camera directly above the board</em></p>
+</div>
 
 ### Doubling Cube
 
-✅ **Recommended: Cube Placement**
-- Place **taken cubes** visibly in the corner of the board
-  - kifu.me distinguishes between "center cubes" and "taken cubes" based on cube position
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: Cube Placement</strong>
+<ul>
+<li>Place <strong>taken cubes</strong> visibly in the corner of the board
+<ul>
+<li>kifu.me distinguishes between "center cubes" and "taken cubes" based on cube position</li>
+</ul>
+</li>
+</ul>
+</div>
 
-✅ **Recommended: Take/Pass Actions**
-- **Pause briefly** (about 1 second) after deciding to take or pass
-  - This ensures enough time for image recognition. Stay calm and don't rush!
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: Take/Pass Actions</strong>
+<ul>
+<li><strong>Pause briefly</strong> (about 1 second) after deciding to take or pass
+<ul>
+<li>This ensures enough time for image recognition. Stay calm and don't rush!</li>
+</ul>
+</li>
+</ul>
+</div>
 
-✅ **Recommended: Use Physically Larger Cubes**
-- Larger cubes reduce recognition errors (though this doesn't mean you should double more often!)
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: Use Physically Larger Cubes</strong>
+<ul>
+<li>Larger cubes reduce recognition errors (though this doesn't mean you should double more often!)</li>
+</ul>
+</div>
 
-❌ **Not Recommended: To Prevent Misrecognition**
-- **Don't place unnecessary cubes near the board**
-  - Multiple cubes in view can cause recognition errors
+<div class="highlight-box warning">
+<span class="emoji-indicator">❌</span><strong>Not Recommended: To Prevent Misrecognition</strong>
+<ul>
+<li><strong>Don't place unnecessary cubes near the board</strong>
+<ul>
+<li>Multiple cubes in view can cause recognition errors</li>
+</ul>
+</li>
+</ul>
+</div>
 
 ### Dice
 
-✅ **Recommended: Using Chess Clocks**
-- Use chess clocks for your matches
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: Using Chess Clocks</strong>
+<ul>
+<li>Use chess clocks for your matches</li>
+</ul>
+</div>
 
-✅ **Recommended: ELITE Precision Dice**
-- [ELITE Precision Dice](https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy) sold by Backgammon Galaxy have minimal light reflection, making them ideal for use with kifu.me.
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: ELITE Precision Dice</strong>
+<ul>
+<li><a href="https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy">ELITE Precision Dice</a> sold by Backgammon Galaxy have minimal light reflection, making them ideal for use with kifu.me.</li>
+</ul>
+</div>
 
-❌ **Not Recommended: Special Design Dice**
-- Dice with non-standard designs cannot be correctly recognized
-  - Example of dice not to use: ![Special dice example](https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true)
+<div class="highlight-box warning">
+<span class="emoji-indicator">❌</span><strong>Not Recommended: Special Design Dice</strong>
+<ul>
+<li>Dice with non-standard designs cannot be correctly recognized
+<ul>
+<li>Example of dice not to use: <img src="https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true" alt="Special dice example"></li>
+</ul>
+</li>
+</ul>
+</div>
 
 ### Checkers
 
-✅ **Recommended: Accurate Initial Setup**
-- kifu.me **starts recording when it detects checkers returning to their initial positions**
-- If the initial setup is incorrect, the game won't be recorded properly
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: Accurate Initial Setup</strong>
+<ul>
+<li>kifu.me <strong>starts recording when it detects checkers returning to their initial positions</strong></li>
+<li>If the initial setup is incorrect, the game won't be recorded properly</li>
+</ul>
+</div>
 
-❌ **Not Recommended: Stacking Checkers**
-- Recognition accuracy decreases when checkers are stacked. Try to play without stacking checkers when possible
+<div class="highlight-box warning">
+<span class="emoji-indicator">❌</span><strong>Not Recommended: Stacking Checkers</strong>
+<ul>
+<li>Recognition accuracy decreases when checkers are stacked. Try to play without stacking checkers when possible</li>
+</ul>
+</div>
 
 ### Board
 
-✅ **Recommended: Simple Board Design**
-- Boards with plain designs are optimal. Boards with text or illustrations can decrease recognition accuracy for cubes and dice
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: Simple Board Design</strong>
+<ul>
+<li>Boards with plain designs are optimal. Boards with text or illustrations can decrease recognition accuracy for cubes and dice</li>
+</ul>
+</div>
 
-✅ **Recommended: Fixed Board Position**
-- Do not move the board during play
-- If you need to move the board, do so after a game is finished and before setting up checkers for the next game
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>Recommended: Fixed Board Position</strong>
+<ul>
+<li>Do not move the board during play</li>
+<li>If you need to move the board, do so after a game is finished and before setting up checkers for the next game</li>
+</ul>
+</div>
 
 ## Match Record Review Guidelines
 
@@ -162,30 +239,36 @@ Objects other than the doubling cube (dice, checkers, watches, smartphones, etc.
 
 ## FAQ
 
-**Q:** My video file is larger than 4GB and I can't upload it.
+<div class="highlight-box">
+<p><strong>Q:</strong> My video file is larger than 4GB and I can't upload it.</p>
 
-**A:** You can use [ffmpeg](https://ffmpeg.org/) to reduce the file size.
+<p><strong>A:</strong> You can use <a href="https://ffmpeg.org/">ffmpeg</a> to reduce the file size.</p>
 
-The following command will create a video with reduced frames (2 frames per second), significantly decreasing the file size. When uploading this processed file, select the `Normal Video` option.
+<p>The following command will create a video with reduced frames (2 frames per second), significantly decreasing the file size. When uploading this processed file, select the <code>Normal Video</code> option.</p>
 
-```
-ffmpeg -i input.mp4 -vf "fps=2" output.mp4
-```
+<pre><code>ffmpeg -i input.mp4 -vf "fps=2" output.mp4</code></pre>
 
-If ffmpeg is not installed on your system, you'll need to install it first. Visit the [ffmpeg website](https://ffmpeg.org/download.html) for installation instructions.
+<p>If ffmpeg is not installed on your system, you'll need to install it first. Visit the <a href="https://ffmpeg.org/download.html">ffmpeg website</a> for installation instructions.</p>
+</div>
 
-**Q:** Will illegal moves be correctly recognized?
+<div class="highlight-box">
+<p><strong>Q:</strong> Will illegal moves be correctly recognized?</p>
 
-**A:** No. If there are illegal moves, one of the following will happen:
+<p><strong>A:</strong> No. If there are illegal moves, one of the following will happen:</p>
 
-- The move won't be recognized, and "????" will appear in the match record
-- The move will be recorded with a corrected dice roll different from the actual roll
+<ul>
+<li>The move won't be recognized, and "????" will appear in the match record</li>
+<li>The move will be recorded with a corrected dice roll different from the actual roll</li>
+</ul>
 
-In either case, manual correction will be necessary. For accurate records, try to avoid illegal moves.
+<p>In either case, manual correction will be necessary. For accurate records, try to avoid illegal moves.</p>
+</div>
 
-**Q:** There is an incorrectly recorded game. Can I delete a specific game and get the match record?
+<div class="highlight-box">
+<p><strong>Q:</strong> There is an incorrectly recorded game. Can I delete a specific game and get the match record?</p>
 
-**A:** It is not possible to delete a specific game and get the match record.
+<p><strong>A:</strong> It is not possible to delete a specific game and get the match record.</p>
+</div>
 
 
 ## Useful Information

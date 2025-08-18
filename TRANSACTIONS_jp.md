@@ -1,6 +1,16 @@
+---
+layout: default
+title: 特定商取引法に基づく表記
+description: 特定商取引法に基づく表記
+lang: ja
+---
+
 # 特定商取引法に基づく表記
 
-[English](TRANSACTIONS.md) | 日本語
+<div class="language-switcher">
+  <a href="/TRANSACTIONS.html">English</a>
+  <a href="/TRANSACTIONS_jp.html" class="active">日本語</a>
+</div>
 
 ## 販売事業者
 木曽野 正篤

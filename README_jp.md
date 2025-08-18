@@ -1,6 +1,16 @@
+---
+layout: default
+title: kifu.me サポート
+description: kifu.me のサポートドキュメント - バックギャモン棋譜入力作業のアシスタント
+lang: ja
+---
+
 # kifu.me サポートページ
 
-[English](README.md) | 日本語
+<div class="language-switcher">
+  <a href="/README.html">English</a>
+  <a href="/README_jp.html" class="active">日本語</a>
+</div>
 
 kifu.me は、バックギャモン棋譜入力作業のアシスタントです。全てを手作業で入力するよりも、作業を効率化することができます。
 
@@ -37,90 +47,157 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 
 ### 動画撮影
 
-✅ **推奨: カメラの位置と設定**  
-- カメラはしっかり固定してください。  
-- ボードの真上から撮影してください。（斜めからの撮影は不可）  
-- ボード全体が映るようにフレームを調整してください。  
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: カメラの位置と設定</strong>
+<ul>
+<li>カメラはしっかり固定してください。</li>
+<li>ボードの真上から撮影してください。（斜めからの撮影は不可）</li>
+<li>ボード全体が映るようにフレームを調整してください。</li>
+</ul>
+</div>
 
-✅ **推奨: 撮影モード**  
-- **Full HD（1920 x 1080ピクセル）** で撮影してください。  
-- **タイムラプス動画モード**を使用すると、アップロード時間を大幅に短縮できます。  
-  - 推奨設定：0.5秒インターバル
-  - 1秒以上のインターバルで撮影した動画は、正しく認識できません。  
-- カメラは横位置(landscape)で撮影してください。
-- アクションカメラを使用する場合、レンズ歪みが大きいと正しく認識できません。必ず**歪み補正モード**を使用してください。
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: 撮影モード</strong>
+<ul>
+<li><strong>Full HD（1920 x 1080ピクセル）</strong> で撮影してください。</li>
+<li><strong>タイムラプス動画モード</strong>を使用すると、アップロード時間を大幅に短縮できます。
+<ul>
+<li>推奨設定：0.5秒インターバル</li>
+<li>1秒以上のインターバルで撮影した動画は、正しく認識できません。</li>
+</ul>
+</li>
+<li>カメラは横位置(landscape)で撮影してください。</li>
+<li>アクションカメラを使用する場合、レンズ歪みが大きいと正しく認識できません。必ず<strong>歪み補正モード</strong>を使用してください。</li>
+</ul>
+</div>
 
 
 ### 撮影例
 
-#### ✅推奨される撮影方法
-![推奨撮影例](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.36.00.png?raw=true)
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨される撮影方法</strong>
+<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.36.00.png?raw=true" alt="推奨撮影例"></p>
+<p><em>ボードの真上から撮影されており、ボードの全体が映っている良い例</em></p>
+</div>
 
-*ボードの真上から撮影されており、ボードの全体が映っている良い例*
+<div class="highlight-box warning">
+<span class="emoji-indicator">❌</span><strong>避けるべき撮影方法</strong>
+<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.41.png?raw=true" alt="レンズ歪みの例"></p>
+<p><em>レンズ歪みが大きい例 - 歪み補正機能を使いましょう</em></p>
 
-#### ❌避けるべき撮影方法
-![レンズ歪みの例](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.41.png?raw=true)
+<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.05.png?raw=true" alt="不適切な角度の例1"></p>
+<p><em>横から撮影している例 - カメラをボードの真上に設置しましょう</em></p>
 
-*レンズ歪みが大きい例 - 歪み補正機能を使いましょう*
-
-![不適切な角度の例1](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.05.png?raw=true)
-
-*横から撮影している例 - カメラをボードの真上に設置しましょう*
-
-![不適切な角度の例2](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.23.png?raw=true)
-
-*ボードの手前から撮影している例 - カメラをボードの真上に設置しましょう*
+<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.23.png?raw=true" alt="不適切な角度の例2"></p>
+<p><em>ボードの手前から撮影している例 - カメラをボードの真上に設置しましょう</em></p>
+</div>
 
 
 ### キューブ
 
-✅ **推奨: キューブの配置**  
-- **テイクしたキューブ**は、ボードのコーナーに見えるように置いてください。  
-  - kifu.me は、キューブの位置を元に「センターキューブ」と「テイクされたキューブ」を区別します。  
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: キューブの配置</strong>
+<ul>
+<li><strong>テイクしたキューブ</strong>は、ボードのコーナーに見えるように置いてください。
+<ul>
+<li>kifu.me は、キューブの位置を元に「センターキューブ」と「テイクされたキューブ」を区別します。</li>
+</ul>
+</li>
+</ul>
+</div>
 
-✅ **推奨: テイク/パスのアクション**  
-- テイクやパスの判断後、**一呼吸おいてから行動する**（1秒程度）  
-  - 画像認識のための時間を確保してください。焦らず落ち着いて行いましょう。  
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: テイク/パスのアクション</strong>
+<ul>
+<li>テイクやパスの判断後、<strong>一呼吸おいてから行動する</strong>（1秒程度）
+<ul>
+<li>画像認識のための時間を確保してください。焦らず落ち着いて行いましょう。</li>
+</ul>
+</li>
+</ul>
+</div>
 
-✅ **推奨: 物理的に大きめのキューブを使う**  
-- キューブが大きいほど認識ミスが減ります。（ただし、リダブルしろという意味ではない！）  
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: 物理的に大きめのキューブを使う</strong>
+<ul>
+<li>キューブが大きいほど認識ミスが減ります。（ただし、リダブルしろという意味ではない！）</li>
+</ul>
+</div>
 
-❌ **非推奨: 誤認識を防ぐために**  
-- **ボードの近くに不要なキューブを置かない**  
-  - 複数のキューブが映ると誤認識する可能性があります。  
+<div class="highlight-box warning">
+<span class="emoji-indicator">❌</span><strong>非推奨: 誤認識を防ぐために</strong>
+<ul>
+<li><strong>ボードの近くに不要なキューブを置かない</strong>
+<ul>
+<li>複数のキューブが映ると誤認識する可能性があります。</li>
+</ul>
+</li>
+</ul>
+</div>  
 
 
 ### ダイス
 
-✅ **推奨: チェスクロックの使用**  
-- 対局にはチェスクロックを使ってください。
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: チェスクロックの使用</strong>
+<ul>
+<li>対局にはチェスクロックを使ってください。</li>
+</ul>
+</div>
 
-✅ **推奨: ELITE Precision Dice**  
-- Backgammon Galaxy が販売している [ELITE Precision Dice](https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy) は照明による反射が少なく、kifu.me での使用に適しています。
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: ELITE Precision Dice</strong>
+<ul>
+<li>Backgammon Galaxy が販売している <a href="https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy">ELITE Precision Dice</a> は照明による反射が少なく、kifu.me での使用に適しています。</li>
+</ul>
+</div>
 
-❌ **非推奨: 特殊なデザインのダイス**
-- 通常とは異なるデザインのダイスは正しく認識できないため、使用しないでください。
-  - 使用してはならないダイスの例:  ![特殊なダイスの例](https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true)
+<div class="highlight-box warning">
+<span class="emoji-indicator">❌</span><strong>非推奨: 特殊なデザインのダイス</strong>
+<ul>
+<li>通常とは異なるデザインのダイスは正しく認識できないため、使用しないでください。
+<ul>
+<li>使用してはならないダイスの例: <img src="https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true" alt="特殊なダイスの例"></li>
+</ul>
+</li>
+</ul>
+</div>
 
 
 ### チェッカー
 
-✅ **推奨: 初期配置を正確に**  
-- kifu.me は、**チェッカーが初期配置に戻ったことを検知すると記録を開始**します。  
-- 初期配置が間違っていると、ゲームが記録されないので注意してください。  
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: 初期配置を正確に</strong>
+<ul>
+<li>kifu.me は、<strong>チェッカーが初期配置に戻ったことを検知すると記録を開始</strong>します。</li>
+<li>初期配置が間違っていると、ゲームが記録されないので注意してください。</li>
+</ul>
+</div>
 
-❌ **非推奨: チェッカーを重ねる**  
-- チェッカーを重ねると認識精度が下がります。できるだけチェッカーを重ねずにプレイしてください。  
+<div class="highlight-box warning">
+<span class="emoji-indicator">❌</span><strong>非推奨: チェッカーを重ねる</strong>
+<ul>
+<li>チェッカーを重ねると認識精度が下がります。できるだけチェッカーを重ねずにプレイしてください。</li>
+</ul>
+</div>
 
 
 ### ボード
 
-✅ **推奨: シンプルなデザインのボード**  
-- ボードは無地のシンプルなデザインが最適です。文字やイラストが描かれていると、キューブやダイスの認識精度が下がります。
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: シンプルなデザインのボード</strong>
+<ul>
+<li>ボードは無地のシンプルなデザインが最適です。文字やイラストが描かれていると、キューブやダイスの認識精度が下がります。</li>
+</ul>
+</div>
 
-✅ **推奨: ボードの固定**  
-- プレイ中は、ボードを移動しないようにしてください。
-- ボードを移動する必要がある場合は、ゲームが終了した後で、次のゲーム開始前（**チェッカーを初期配置にする前**）に行ってください。
+<div class="highlight-box success">
+<span class="emoji-indicator">✅</span><strong>推奨: ボードの固定</strong>
+<ul>
+<li>プレイ中は、ボードを移動しないようにしてください。</li>
+<li>ボードを移動する必要がある場合は、ゲームが終了した後で、次のゲーム開始前（<strong>チェッカーを初期配置にする前</strong>）に行ってください。</li>
+</ul>
+</div>
 
 
 ## 棋譜確認のポイント
@@ -169,30 +246,36 @@ kifu.me は、画像認識処理によりプレイヤーの指手を記録しま
 
 ## よくある質問
 
-**Q:** 動画ファイルのサイズが 4GB 以上あるのでアップロードできません。
+<div class="highlight-box">
+<p><strong>Q:</strong> 動画ファイルのサイズが 4GB 以上あるのでアップロードできません。</p>
 
-**A:** [ffmpeg](https://ffmpeg.org/) を使ってファイルサイズを小さくすることができます。
+<p><strong>A:</strong> <a href="https://ffmpeg.org/">ffmpeg</a> を使ってファイルサイズを小さくすることができます。</p>
 
-以下のコマンドを実行すると、1秒あたり2フレームに間引いた動画ファイルが作成され、ファイルサイズを大幅に減らすことができます。このファイルをアップロードする場合は、`Normal Video` のオプションを選択してください。
+<p>以下のコマンドを実行すると、1秒あたり2フレームに間引いた動画ファイルが作成され、ファイルサイズを大幅に減らすことができます。このファイルをアップロードする場合は、<code>Normal Video</code> のオプションを選択してください。</p>
 
-```
-ffmpeg -i 元の動画ファイル名.mp4 -vf "fps=2" 出力ファイル名.mp4
-```
+<pre><code>ffmpeg -i 元の動画ファイル名.mp4 -vf "fps=2" 出力ファイル名.mp4</code></pre>
 
-ffmpeg がインストールされていない場合は、インストールしてください。
+<p>ffmpeg がインストールされていない場合は、インストールしてください。</p>
+</div>
 
-**Q:** イリーガルムーブをした場合も、正しく認識されますか？
+<div class="highlight-box">
+<p><strong>Q:</strong> イリーガルムーブをした場合も、正しく認識されますか？</p>
 
-**A:** いいえ。イリーガルムーブがあった場合は、以下のいずれかの状態になります：
+<p><strong>A:</strong> いいえ。イリーガルムーブがあった場合は、以下のいずれかの状態になります：</p>
 
-- 指手が認識されず、棋譜に「????」と出力される
-- 実際の出目とは異なる出目に補正されて記録される
+<ul>
+<li>指手が認識されず、棋譜に「????」と出力される</li>
+<li>実際の出目とは異なる出目に補正されて記録される</li>
+</ul>
 
-いずれの場合も、手作業による修正が必要となります。正確な記録のためにも、イリーガルムーブを避けるよう心がけましょう。
+<p>いずれの場合も、手作業による修正が必要となります。正確な記録のためにも、イリーガルムーブを避けるよう心がけましょう。</p>
+</div>
 
-**Q:** 間違って記録されたゲームがあります。特定のゲームを削除して棋譜を取得できますか？
+<div class="highlight-box">
+<p><strong>Q:</strong> 間違って記録されたゲームがあります。特定のゲームを削除して棋譜を取得できますか？</p>
 
-**A:** 特定のゲームを削除して棋譜を取得することは出来ません。
+<p><strong>A:</strong> 特定のゲームを削除して棋譜を取得することは出来ません。</p>
+</div>
 
 
 ## 役立つ情報

@@ -1,6 +1,16 @@
+---
+layout: default
+title: kifu.me Terms of Service
+description: Terms of Service for kifu.me
+lang: en
+---
+
 # kifu.me Terms of Service
 
-English | [日本語](TERMS_jp.md)
+<div class="language-switcher">
+  <a href="/TERMS.html" class="active">English</a>
+  <a href="/TERMS_jp.html">日本語</a>
+</div>
 
 Last Updated: May 22, 2025
 

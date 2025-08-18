@@ -1,6 +1,16 @@
+---
+layout: default
+title: kifu.me サービス利用規約
+description: kifu.me のサービス利用規約
+lang: ja
+---
+
 # kifu.me サービス利用規約
 
-[English](TERMS.md) | 日本語
+<div class="language-switcher">
+  <a href="/TERMS.html">English</a>
+  <a href="/TERMS_jp.html" class="active">日本語</a>
+</div>
 
 最終更新日: 2025年5月22日
 
