@@ -8,8 +8,8 @@ lang: en
 # kifu.me support page
 
 <div class="language-switcher">
-  <a href="/README.html" class="active">English</a>
-  <a href="/README_jp.html">日本語</a>
+  <a href="{{ site.baseurl }}/README.html" class="active">English</a>
+  <a href="{{ site.baseurl }}/README_jp.html">日本語</a>
 </div>
 
 kifu.me is an assistant for entering backgammon match records. It helps you efficiently record games compared to manual entry.
