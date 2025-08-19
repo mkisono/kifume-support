@@ -36,8 +36,8 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
    - If your match is split into multiple files, you can upload multiple files
      - Files must be in sequential order
      - You can upload up to 10 files in total
-2. **Check the recognition results by email**
-   - Open the link sent to you to review the analysis results. The link is valid for one week only.
+2. **Check the analysis results via email notification**
+   - After analysis is complete, you will receive an email notification. Open the link provided in the email in your browser to review the analysis results. The link is valid for one week only.
 3. **Receive the match record file by email**
    - Save the match data as needed and use it for analysis
    - The match record is a text file. If there are any errors in the data, you can manually correct them using a text editor.
