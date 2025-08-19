@@ -8,8 +8,8 @@ lang: ja
 # kifu.me サポートページ
 
 <div class="language-switcher">
-  <a href="/README.html">English</a>
-  <a href="/README_jp.html" class="active">日本語</a>
+  <a href="{{ site.baseurl }}/README.html">English</a>
+  <a href="{{ site.baseurl }}/README_jp.html" class="active">日本語</a>
 </div>
 
 kifu.me は、バックギャモン棋譜入力作業のアシスタントです。全てを手作業で入力するよりも、作業を効率化することができます。

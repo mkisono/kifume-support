@@ -1,6 +1,8 @@
 title: "kifu.me Support"
 description: "kifu.me is an assistant for entering backgammon match records"
 name: "kifu.me"
+baseurl: ""
+url: "https://docs.kifu.me"
 github:
   is_project_page: false
 theme: minima
