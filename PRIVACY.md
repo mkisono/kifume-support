@@ -1,6 +1,16 @@
+---
+layout: default
+title: kifu.me Privacy Policy
+description: Privacy Policy for kifu.me
+lang: en
+---
+
 # kifu.me Privacy Policy
 
-English | [日本語](PRIVACY_jp.md)
+<div class="language-switcher">
+  <a href="/PRIVACY.html" class="active">English</a>
+  <a href="/PRIVACY_jp.html">日本語</a>
+</div>
 
 Last Updated: May 22, 2025
 

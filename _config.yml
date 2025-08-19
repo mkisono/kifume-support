@@ -1,4 +1,11 @@
-title: ""
-name: ""
+title: "kifu.me Support"
+description: "kifu.me is an assistant for entering backgammon match records"
+name: "kifu.me"
 github:
   is_project_page: false
+theme: minima
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap

@@ -1,6 +1,16 @@
+---
+layout: default
+title: kifu.me Transaction Law Information
+description: Information Based on the Japanese Specified Commercial Transaction Act
+lang: en
+---
+
 # Information Based on the Japanese Specified Commercial Transaction Act
 
-English | [日本語](TRANSACTIONS_jp.md)
+<div class="language-switcher">
+  <a href="/TRANSACTIONS.html" class="active">English</a>
+  <a href="/TRANSACTIONS_jp.html">日本語</a>
+</div>
 
 ## Seller
 Masahiro Kisono
