@@ -76,19 +76,19 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 
 <div class="highlight-box success">
 <span class="emoji-indicator">✅</span><strong>推奨される撮影方法</strong>
-<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.36.00.png?raw=true" alt="推奨撮影例"></p>
+<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.36.00.png?raw=true" alt="推奨撮影例" style="max-width: 100%; height: auto;"></p>
 <p><em>ボードの真上から撮影されており、ボードの全体が映っている良い例</em></p>
 </div>
 
 <div class="highlight-box warning">
 <span class="emoji-indicator">❌</span><strong>避けるべき撮影方法</strong>
-<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.41.png?raw=true" alt="レンズ歪みの例"></p>
+<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.41.png?raw=true" alt="レンズ歪みの例" style="max-width: 100%; height: auto;"></p>
 <p><em>レンズ歪みが大きい例 - 歪み補正機能を使いましょう</em></p>
 
-<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.05.png?raw=true" alt="不適切な角度の例1"></p>
+<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.05.png?raw=true" alt="不適切な角度の例1" style="max-width: 100%; height: auto;"></p>
 <p><em>横から撮影している例 - カメラをボードの真上に設置しましょう</em></p>
 
-<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.23.png?raw=true" alt="不適切な角度の例2"></p>
+<p><img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-02%20at%2010.28.23.png?raw=true" alt="不適切な角度の例2" style="max-width: 100%; height: auto;"></p>
 <p><em>ボードの手前から撮影している例 - カメラをボードの真上に設置しましょう</em></p>
 </div>
 
@@ -157,7 +157,7 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 <ul>
 <li>通常とは異なるデザインのダイスは正しく認識できないため、使用しないでください。
 <ul>
-<li>使用してはならないダイスの例: <img src="https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true" alt="特殊なダイスの例"></li>
+<li>使用してはならないダイスの例: <img src="https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true" alt="特殊なダイスの例" style="max-width: 100%; height: auto;"></li>
 </ul>
 </li>
 </ul>
@@ -208,7 +208,7 @@ kifu.me は、画像認識処理によりプレイヤーの指手を記録しま
 
 以下に添付した例では、画像認識結果から読み取ったダイスの出目と、実際のプレイに整合性がありませんでした。そのため、kifu.me は読み取った出目を補正したので、赤い表示をつけています。
 
-![ダイスが赤く表示されている例](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.45.24.png?raw=true)
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.45.24.png?raw=true" alt="ダイスが赤く表示されている例" style="max-width: 100%; height: auto;">
 
 ダイスの出目が赤くなっているケースには、以下の理由が考えられます：
 
@@ -228,7 +228,7 @@ kifu.me は、画像認識処理によりプレイヤーの指手を記録しま
 
 以下の例では、青のプレイヤーが 13/6 とプレイし、6ポイントに6枚のチェッカーがありますが、kifu.me は5枚のチェッカーがあると認識したため、補正が行われました。
 
-![ムーブが赤く表示されている例](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.44.47.png?raw=true)
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.44.47.png?raw=true" alt="ムーブが赤く表示されている例" style="max-width: 100%; height: auto;">
 
 ムーブが赤くなっているケースには、以下の理由が考えられます：
 
@@ -290,4 +290,4 @@ GitHub の [Issues](https://github.com/mkisono/kifume-support/issues) を参照�
 
 ## チラシ
 
-![チラシ](https://github.com/mkisono/kifume-support/blob/main/image/flyer.png?raw=true)
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/flyer.png?raw=true" alt="チラシ" style="max-width: 100%; height: auto;">

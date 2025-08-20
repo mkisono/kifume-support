@@ -75,19 +75,19 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 
 <div class="highlight-box success">
 <span class="emoji-indicator">✅</span><strong>Recommended Recording Method</strong>
-<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.36.00.png" alt="Recommended recording example"></p>
+<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.36.00.png" alt="Recommended recording example" style="max-width: 100%; height: auto;"></p>
 <p><em>Good example: Recorded from directly above the board with the entire board visible</em></p>
 </div>
 
 <div class="highlight-box warning">
 <span class="emoji-indicator">❌</span><strong>Methods to Avoid</strong>
-<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.41.png" alt="Lens distortion example"></p>
+<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.41.png" alt="Lens distortion example" style="max-width: 100%; height: auto;"></p>
 <p><em>Example with significant lens distortion - Use distortion correction feature</em></p>
 
-<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.05.png" alt="Improper angle example 1"></p>
+<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.05.png" alt="Improper angle example 1" style="max-width: 100%; height: auto;"></p>
 <p><em>Example recorded from the side - Position the camera directly above the board</em></p>
 
-<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.23.png" alt="Improper angle example 2"></p>
+<p><img src="https://raw.githubusercontent.com/mkisono/kifume-support/refs/heads/update-doc/image/Screenshot%202025-05-02%20at%2010.28.23.png" alt="Improper angle example 2" style="max-width: 100%; height: auto;"></p>
 <p><em>Example recorded from the front - Position the camera directly above the board</em></p>
 </div>
 
@@ -154,7 +154,7 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 <ul>
 <li>Dice with non-standard designs cannot be correctly recognized
 <ul>
-<li>Example of dice not to use: <img src="https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true" alt="Special dice example"></li>
+<li>Example of dice not to use: <img src="https://github.com/mkisono/kifume-support/blob/main/image/dice.png?raw=true" alt="Special dice example" style="max-width: 100%; height: auto;"></li>
 </ul>
 </li>
 </ul>
@@ -202,7 +202,7 @@ kifu.me records player moves using image recognition processing. Parts of the re
 
 In the example below, the dice roll read from image recognition was inconsistent with the actual play. Therefore, kifu.me corrected the read roll and marked it with red highlighting.
 
-![Example of dice highlighted in red](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.45.24.png?raw=true)
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.45.24.png?raw=true" alt="Example of dice highlighted in red" style="max-width: 100%; height: auto;">
 
 Dice rolls may be highlighted in red for the following reasons:
 
@@ -222,7 +222,7 @@ In the example below, the number of checkers read from image recognition was inc
 
 In this example, the blue player played 13/6 and there are 6 checkers on the 6-point, but kifu.me recognized 5 checkers, so a correction was made.
 
-![Example of move highlighted in red](https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.44.47.png?raw=true)
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.44.47.png?raw=true" alt="Example of move highlighted in red" style="max-width: 100%; height: auto;">
 
 Moves may be highlighted in red for the following reasons:
 
@@ -283,4 +283,4 @@ Please refer to the [Issues](https://github.com/mkisono/kifume-support/issues) o
 
 ## Flyer
 
-![Flyer](https://github.com/mkisono/kifume-support/blob/main/image/flyer.png?raw=true)
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/flyer.png?raw=true" alt="Flyer" style="max-width: 100%; height: auto;">
