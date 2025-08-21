@@ -138,7 +138,9 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 <div class="highlight-box success">
 <span class="emoji-indicator">✅</span><strong>Recommended: Using Chess Clocks</strong>
 <ul>
-<li>Use chess clocks for your matches</li>
+<li>Use chess clocks for your matches.</li>
+<li>If chess clocks are not available, share a single set of dice between players.</li>
+<li>kifu.me detects turn changes by recognizing when dice are picked up from the board. When each player uses their own dice, rapid rolling by the opponent may prevent proper recognition of turn changes.</li>
 </ul>
 </div>
 
