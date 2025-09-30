@@ -139,15 +139,6 @@ kifu.me は、バックギャモン棋譜入力作業のアシスタントです
 ### ダイス
 
 <div class="highlight-box success">
-<span class="emoji-indicator">✅</span><strong>推奨: チェスクロックの使用</strong>
-<ul>
-<li>対局にはチェスクロックを使ってください。</li>
-<li>チェスクロックが使えない場合は、1組のダイスを共有してプレイしてください。</li>
-<li>kifu.meは、ダイスがボードから取り上げられた瞬間を検知して手番の交代を判定します。それぞれのプレイヤーが個別のダイスを使用する場合、相手プレイヤーが素早くダイスをロールすると、手番の切り替わりを正しく認識できない場合があります。</li>
-</ul>
-</div>
-
-<div class="highlight-box success">
 <span class="emoji-indicator">✅</span><strong>推奨: ELITE Precision Dice</strong>
 <ul>
 <li>Backgammon Galaxy が販売している <a href="https://shop.backgammongalaxy.com/products/precision-dice-sizes-12-7mm-14-3mm-1-2-9-16-for-backgammon-or-dice-games-made-by-backgammon-galaxy">ELITE Precision Dice</a> は照明による反射が少なく、kifu.me での使用に適しています。</li>
