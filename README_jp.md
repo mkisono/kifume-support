@@ -236,6 +236,11 @@ kifu.me は、画像認識処理によりプレイヤーの指手を記録しま
 
 **推奨事項**：スコアボードも一緒に撮影しておくと、棋譜確認の際にスコアが間違っていないかチェックできるのでお勧めです。
 
+**ショートカットキー**
+
+棋譜を確認するページでは、以下のショートカットキーが利用できます。
+
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-10-21%20at%2014.59.41.png?raw=true" alt="ショートカットキー" style="height: auto;">
 
 ## よくある質問
 

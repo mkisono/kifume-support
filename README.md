@@ -230,6 +230,12 @@ Objects other than the doubling cube (dice, checkers, watches, smartphones, etc.
 
 **Recommendation**: Recording the score board alongside the game is recommended, as it allows you to check whether the score is correct when reviewing the match record.
 
+**Keyboard Shortcuts**
+
+The following keyboard shortcuts are available on the match record review page:
+
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-10-21%20at%2014.59.41.png?raw=true" alt="Keyboard shortcuts" style="height: auto;">
+
 ## FAQ
 
 <div class="highlight-box">
