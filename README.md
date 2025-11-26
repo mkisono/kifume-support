@@ -30,12 +30,19 @@ kifu.me is an assistant for entering backgammon match records. It helps you effi
 
 ## How to Use
 
-1. **[Upload](https://kifu.me/upload) your video**
+1. **Record a match**
+
+   **1.1 Use kifu.me Camera App (Recommended)**
+   - You can easily record and upload using the smartphone app.
+   - See [kifu.me Camera Manual]({{ site.baseurl }}/APP.html) for details.
+
+   **1.2 [Upload](https://kifu.me/upload) video recorded with an action camera, etc.**
    - Record the board properly (see [Video Recording](#video-recording) section for details)
    - Maximum video size is 16GB
    - If your match is split into multiple files, you can upload multiple files
      - Files must be in sequential order
      - You can upload up to 10 files in total
+
 2. **Check the analysis results via email notification**
    - After analysis is complete, you will receive an email notification. Open the link provided in the email in your browser to review the analysis results. The link is valid for one week only.
 3. **Receive the match record file by email**
