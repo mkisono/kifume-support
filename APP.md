@@ -16,6 +16,7 @@ kifu.me Camera is an app for recording backgammon matches with your smartphone c
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Installation](#installation)
 - [Login](#login)
 - [Home Screen (Match Data List)](#home-screen-match-data-list)
 - [Recording a New Match](#recording-a-new-match)
@@ -29,6 +30,14 @@ kifu.me Camera is an app for recording backgammon matches with your smartphone c
 
 By using this app, you can record backgammon matches using only your smartphone without any special equipment.
 Recorded videos are saved in the device's "Photos" app. A compressed video file and board detection data are sent to kifu.me.
+
+## Installation
+
+kifu.me Camera can be installed from the App Store.
+
+<a href="https://apps.apple.com/us/app/kifu-me-camera/id6755564189">
+  <img src="https://github.com/mkisono/kifume-support/blob/main/image/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg?raw=true" alt="Download on the App Store" width="150">
+</a>
 
 ## Login
 
@@ -77,28 +86,27 @@ On the recording screen, align the board while viewing the camera feed and recor
 
 ### 1. Camera Setup and Adjustment
 
-<div class="highlight-box success">
-<span class="emoji-indicator">✅</span><strong>Alignment</strong>
+<ul>
+<li>
+<strong>Alignment</strong>
 <ul>
 <li>Position your smartphone so that the backgammon board appears within the white wireframe (guide frame) displayed on the screen.</li>
 </ul>
-</div>
-
-<div class="highlight-box success">
-<span class="emoji-indicator">✅</span><strong>Lens Switching</strong>
+</li>
+<li>
+<strong>Lens Switching</strong>
 <ul>
 <li>Tap the buttons on the screen (e.g., "0.5", "1.0") to switch between wide-angle and ultra-wide-angle lenses. Select the field of view that fits the entire board comfortably.</li>
 </ul>
-</div>
+</li>
+</ul>
 
 ### 2. Checking Alignment
-
-The app automatically recognizes the board and displays it with an orange frame.
 
 <div class="highlight-box warning">
 <span class="emoji-indicator">⚠️</span><strong>Adjust Position</strong>
 <ul>
-<li>If the board is misaligned with the guide frame, the frame is displayed in <strong>orange</strong>.</li>
+<li>The app automatically recognizes the board. If the board is misaligned with the guide frame, the frame is displayed in <strong>orange</strong>.</li>
 </ul>
 </div>
 
