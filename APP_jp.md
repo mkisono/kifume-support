@@ -16,6 +16,7 @@ kifu.me Camera は、バックギャモンの試合をスマートフォンの�
 
 ## 目次
 - [はじめに](#はじめに)
+- [インストール](#インストール)
 - [ログイン](#ログイン)
 - [ホーム画面（試合データリスト）](#ホーム画面試合データリスト)
 - [新しい試合の記録](#新しい試合の記録)
@@ -29,6 +30,14 @@ kifu.me Camera は、バックギャモンの試合をスマートフォンの�
 
 このアプリを使用することで、特別な機材を使わずにスマートフォンだけでバックギャモンの試合を記録できます。
 撮影された動画は端末の「写真」アプリに保存されます。kifu.meへは、アップロード用に軽量化された映像と、盤面の検出データが送信されます。
+
+## インストール
+
+kifu.me Camera は App Store からインストールできます。
+
+<a href="https://apps.apple.com/us/app/kifu-me-camera/id6755564189">
+  <img src="https://github.com/mkisono/kifume-support/blob/main/image/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg?raw=true" alt="Download on the App Store" width="150">
+</a>
 
 ## ログイン
 
@@ -70,7 +79,7 @@ kifu.me Camera は、バックギャモンの試合をスマートフォンの�
 
 入力が完了したら、「OK」ボタンを押して録画画面へ進みます。
 
-## 録画と撮影
+## 録画
 
 録画画面では、カメラの映像を見ながらボードの位置合わせを行い、試合を記録します。
 
@@ -78,28 +87,27 @@ kifu.me Camera は、バックギャモンの試合をスマートフォンの�
 
 ### 1. カメラの設置と調整
 
-<div class="highlight-box success">
-<span class="emoji-indicator">✅</span><strong>位置合わせ</strong>
+<ul>
+<li>
+<strong>位置合わせ</strong>
 <ul>
 <li>画面に表示される白いワイヤーフレーム（ガイド枠）に合わせて、バックギャモンボードが映るようにスマートフォンを固定してください。</li>
 </ul>
-</div>
-
-<div class="highlight-box success">
-<span class="emoji-indicator">✅</span><strong>レンズ切り替え</strong>
+</li>
+<li>
+<strong>レンズ切り替え</strong>
 <ul>
 <li>画面上のボタン（「0.5」「1.0」など）をタップすることで、広角レンズと超広角レンズを切り替えることができます。ボード全体が無理なく収まる画角を選択してください。</li>
 </ul>
-</div>
+</li>
+</ul>
 
 ### 2. 位置合わせの確認
-
-アプリは自動的にボードを認識し、オレンジ色の枠で表示します。
 
 <div class="highlight-box warning">
 <span class="emoji-indicator">⚠️</span><strong>Adjust Position</strong>
 <ul>
-<li>ボードがガイド枠とずれている場合、枠は<strong>オレンジ色</strong>で表示されます。</li>
+<li>アプリは自動的にボードを認識します。ボードがガイド枠とずれている場合、枠は<strong>オレンジ色</strong>で表示されます。</li>
 </ul>
 </div>
 
