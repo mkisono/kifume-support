@@ -20,7 +20,7 @@ These Terms of Service (hereinafter referred to as "Terms") establish the condit
 
 ## 2. Service Overview
 
-The Service is an online service for analyzing and managing backgammon-related data. Users can upload video files or XG files and use features for generating and searching game record data. Some features require tickets (for example, receiving game record data by email, Search, and XG Upload), and tickets are used or consumed under the conditions specified by the Service.
+The Service is an online service for analyzing and managing backgammon-related data. Users can upload video files or XG files and use features for generating and searching game record data. Some features require tickets (for example, receiving game record data by email, "Search", and "XG Upload"), and tickets are used or consumed under the conditions specified by the Service.
 
 ## 3. Account
 
