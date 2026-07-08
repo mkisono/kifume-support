@@ -27,7 +27,7 @@ The Service collects the following information:
 - Password (stored in encrypted form)
 
 ### 2.2. Usage Information
-- Service usage history (uploaded videos/XG files, generated game record data, search execution history, etc.)
+- Service usage history (uploaded videos and XG files, generated game record data, search execution history, etc.)
 - Ticket purchase and usage history
 - Tag information (tag names, tagged targets, creation timestamps, etc.)
 - Login history
