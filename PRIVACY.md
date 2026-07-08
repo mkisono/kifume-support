@@ -55,7 +55,7 @@ The collected information is used for the following purposes:
 
 3.6. Sending important notifications related to the Service
 
-3.7. Providing search over data that users allow to be shared or made public
+3.7. Providing search over data that users have allowed to be shared or made public
 
 ## 4. Information Storage and Management
 
