@@ -72,7 +72,7 @@ Users must not engage in the following activities when using the Service:
 
 6.1. Ownership of content uploaded or entered by users, including videos, images, XG files, game record data, tags, search conditions, and other related metadata (hereinafter referred to as "User Content"), belongs to the users.
 
-6.2. Users grant the Service a non-exclusive and royalty-free license to use, reproduce, modify, and display User Content to the extent necessary for providing, operating, maintaining, improving, and securing the Service, and for search provision within the scope that users allow to be shared or made public.
+6.2. Users grant the Service a non-exclusive and royalty-free license to use, reproduce, modify, and display User Content to the extent necessary for providing, operating, maintaining, improving, and securing the Service, and to provide search over User Content within the scope that users have allowed to be shared or made public.
 
 6.3. The Service will use User Content only to the extent necessary for providing the Service.
 
