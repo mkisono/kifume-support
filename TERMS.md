@@ -12,7 +12,7 @@ lang: en
   <a href="/TERMS_jp.html">日本語</a>
 </div>
 
-Last Updated: May 22, 2025
+Last Updated: July 8, 2026
 
 ## 1. Introduction
 
@@ -20,7 +20,7 @@ These Terms of Service (hereinafter referred to as "Terms") establish the condit
 
 ## 2. Service Overview
 
-The Service is an online service that analyzes backgammon match videos and generates game record data. Users can upload videos, automatically record backgammon game records, and receive game data by email by consuming tickets.
+The Service is an online service for analyzing and managing backgammon-related data. Users can upload video files or XG files and use features for generating and searching game record data. Some features require tickets (for example, receiving game record data by email, "Search", and "XG Upload"), and tickets are used or consumed under the conditions specified by the Service.
 
 ## 3. Account
 
@@ -32,13 +32,13 @@ The Service is an online service that analyzes backgammon match videos and gener
 
 ## 4. Fees and Tickets
 
-4.1. "Tickets" are required to receive game record data by email through the Service.
+4.1. "Tickets" are required to use certain features designated by the Service.
 
 4.2. Tickets can be purchased on the Service website. Ticket prices are subject to change without notice.
 
 4.3. Tickets are valid for 180 days from the date of purchase. Expired tickets will automatically become invalid, and no refunds or extensions will be provided.
 
-4.4. Users consume the required number of tickets when receiving game record data by email. The number of tickets required depends on the number of games analyzed.
+4.4. Users use or consume tickets in the manner defined by the Service when using features that require tickets. The required number of tickets depends on the number of games analyzed, the amount of data processed, or other criteria defined by the Service.
 
 4.5. Once consumed, tickets will not be returned except in the case of significant malfunction of the Service.
 
@@ -70,9 +70,9 @@ Users must not engage in the following activities when using the Service:
 
 ## 6. Content Ownership
 
-6.1. The ownership of content uploaded by users, such as videos and images (hereinafter referred to as "User Content"), belongs to the users.
+6.1. Ownership of content uploaded or entered by users, including videos, images, XG files, game record data, tags, search conditions, and other related metadata (hereinafter referred to as "User Content"), belongs to the users.
 
-6.2. Users grant the Service a non-exclusive and royalty-free license to use, reproduce, modify, distribute, publish, and display User Content.
+6.2. Users grant the Service a non-exclusive and royalty-free license to use, reproduce, modify, and display User Content to the extent necessary for providing, operating, maintaining, improving, and securing the Service, and to provide search over User Content within the scope that users have allowed to be shared or made public.
 
 6.3. The Service will use User Content only to the extent necessary for providing the Service.
 
@@ -80,9 +80,13 @@ Users must not engage in the following activities when using the Service:
 
 7.1. The Service will handle users' personal information appropriately in accordance with the Privacy Policy. The Privacy Policy can be found [here](PRIVACY.md).
 
-7.2. Video data uploaded by users will be automatically deleted after a certain period following the completion of analysis.
+7.2. Video data uploaded by users may be automatically deleted after a period separately defined by the Service following completion of analysis.
 
-7.3. Generated game record data is stored for a certain period (maximum 7 days) from the date of creation, after which it will be automatically deleted. Users are advised to receive necessary game record data by email during this period and save it to their own devices.
+7.3. Generated game record data (including data for temporary display and email delivery) may be stored for a certain period (up to 7 days) from the date of creation, after which it may be automatically deleted.
+
+7.4. Uploaded XG files and search index data are generally retained while the account remains active. They may be deleted or retention may be restricted when users request deletion, when the account is deleted, or when required by law.
+
+7.5. Tag information is generally visible only to the user who created the tag.
 
 ## 8. Service Changes and Suspension
 

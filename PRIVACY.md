@@ -12,7 +12,7 @@ lang: en
   <a href="/PRIVACY_jp.html">日本語</a>
 </div>
 
-Last Updated: May 22, 2025
+Last Updated: July 8, 2026
 
 ## 1. Introduction
 
@@ -27,8 +27,9 @@ The Service collects the following information:
 - Password (stored in encrypted form)
 
 ### 2.2. Usage Information
-- Service usage history (uploaded videos, generated game record data, etc.)
+- Service usage history (uploaded videos and XG files, generated game record data, search execution history, etc.)
 - Ticket purchase and usage history
+- Tag information (tag names, tagged targets, creation timestamps, etc.)
 - Login history
 
 ### 2.3. Automatically Collected Information
@@ -54,15 +55,21 @@ The collected information is used for the following purposes:
 
 3.6. Sending important notifications related to the Service
 
+3.7. Providing search over data that users have allowed to be shared or made public
+
 ## 4. Information Storage and Management
 
 4.1. The Service uses Amazon Cognito to manage personal information. Account information (email address and password) is securely managed by Amazon Cognito.
 
 4.2. Personal information is stored in an environment with appropriate security measures and protected from risks such as unauthorized access, leakage, falsification, loss, and damage.
 
-4.3. Video data uploaded by users will be automatically deleted after a certain period following the completion of analysis.
+4.3. Video data uploaded by users may be automatically deleted after a period separately defined by the Service following completion of analysis.
 
-4.4. Generated game record data is stored for a maximum of 7 days from the date of creation, after which it is automatically deleted.
+4.4. Generated game record data (including data for temporary display and email delivery) may be stored for up to 7 days from the date of creation, after which it may be automatically deleted.
+
+4.5. Uploaded XG files and search index data are generally retained while the account remains active.
+
+4.6. Tag information is generally visible only to the user who created the tag.
 
 ## 5. Third-Party Disclosure
 
@@ -102,11 +109,13 @@ To exercise these rights, please contact us using the contact information in Sec
 
 8.1. Account information is retained as long as the account is active. When an account is deleted, personal information will be removed from the Service's system.
 
-8.2. Video data uploaded by users will be automatically deleted after a certain period following the completion of analysis.
+8.2. Video data uploaded by users may be automatically deleted after a period separately defined by the Service following completion of analysis.
 
-8.3. Generated game record data is stored for a maximum of 7 days from the date of creation, after which it is automatically deleted.
+8.3. Generated game record data (including data for temporary display and email delivery) may be stored for up to 7 days from the date of creation, after which it may be automatically deleted.
 
-8.4. Service usage history and log information may be retained for up to 3 years for security management, prevention of unauthorized use, and fulfillment of legal obligations.
+8.4. Uploaded XG files and search index data are generally retained while the account remains active. They may be deleted or retention may be restricted when users request deletion, when the account is deleted, or when required by law.
+
+8.5. Service usage history and log information may be retained for up to 3 years for security management, prevention of unauthorized use, and fulfillment of legal obligations.
 
 ## 9. Changes to Privacy Policy
 
