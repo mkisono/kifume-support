@@ -37,7 +37,7 @@ Main features:
 
 OBS runtime example:
 
-<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083056.png?raw=true" alt="Dice Magnifier running in OBS" style="max-width: 100%; height: auto;">
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083056.png?raw=true" alt="Dice Magnifier running in OBS" style="width: 640px; max-width: 100%; height: auto;">
 
 ## Architecture (Two Programs Work Together)
 
@@ -76,7 +76,7 @@ Current release packages target Windows x64.
 
 Plugin property example:
 
-<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083116.png?raw=true" alt="Dice Magnifier Capture Source property" style="max-width: 100%; height: auto;">
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083116.png?raw=true" alt="Dice Magnifier Capture Source property" style="width: 640px; max-width: 100%; height: auto;">
 
 ## Notes
 

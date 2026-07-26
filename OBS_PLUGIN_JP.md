@@ -37,7 +37,7 @@ Dice Magnifier は、OBS Studio 上でダイスを拡大表示するためのプ
 
 OBS 上で動作している様子:
 
-<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083056.png?raw=true" alt="OBS上でDice Magnifierが動作している画面" style="max-width: 100%; height: auto;">
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083056.png?raw=true" alt="OBS上でDice Magnifierが動作している画面" style="width: 640px; max-width: 100%; height: auto;">
 
 ## 構成（2つのプログラムが連携）
 
@@ -76,7 +76,7 @@ Dice Magnifier は、次の2つが連携して動作します。
 
 plugin のプロパティ設定:
 
-<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083116.png?raw=true" alt="Dice MagnifierのCapture Source設定画面" style="max-width: 100%; height: auto;">
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083116.png?raw=true" alt="Dice MagnifierのCapture Source設定画面" style="width: 640px; max-width: 100%; height: auto;">
 
 ## 補足
 
