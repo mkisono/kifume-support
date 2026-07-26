@@ -12,12 +12,14 @@ lang: ja
   <a href="{{ site.baseurl }}/OBS_PLUGIN_JP.html" class="active">日本語</a>
 </div>
 
-このページでは、Dice Magnifier の機能、導入手順、利用条件を説明します。
+このページでは、Dice Magnifier の構成、導入手順、利用条件を説明します。
 
 ## 目次
 
+- [構成（2つのプログラムが連携）](#構成2つのプログラムが連携)
 - [機能概要](#機能概要)
 - [利用方法](#利用方法)
+- [補足](#補足)
 - [ダウンロード](#ダウンロード)
 - [利用条件](#利用条件)
 - [更新方法](#更新方法)
@@ -26,42 +28,61 @@ lang: ja
 
 ## 機能概要
 
-Dice Magnifier は、OBS Studio 上で ダイスを拡大表示するためのプラグインです。
+Dice Magnifier は、OBS Studio 上でダイスを拡大表示するためのプラグインです。
 
 主な機能:
 
 - OBS のソースとして追加して利用できる
 - プラグインプロパティのソースに指定した画像内の、ダイス部分を拡大表示できる
 
-補足:
+OBS 上で動作している様子:
 
-- 本プラグイン単体では推論は完結しません。kifume-inference の同時利用が必要です。
-- 現在の配布物は Windows x64 向けです。
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083056.png?raw=true" alt="OBS上でDice Magnifierが動作している画面" style="max-width: 100%; height: auto;">
+
+## 構成（2つのプログラムが連携）
+
+Dice Magnifier は、次の2つが連携して動作します。
+
+- Dice Magnifier plugin:
+  - OBS 上でダイスの表示を担当します。
+- kifume-inference:
+  - 画像からダイスを検出する別プログラムです。
+
+このため、plugin だけでは動作せず、kifume-inference の起動が必要です。
+
+現在の配布物は Windows x64 向けです。
 
 ## 利用方法
 
-### 1. 事前準備
-
-- OBS Studio をインストール済みであること
-- plugin 配布 zip と inference 配布 zip を取得済みであること
-
-### 2. インストール方法（Windows）
+### 0. 事前準備（初回のみ）
 
 1. plugin 配布 zip を展開します。
-2. 展開された `kifume-plugin-for-obs` フォルダを、OBS のプラグイン配置先(`C:\ProgramData\obs-studio\plugins`)にコピーします。
+2. 展開された `kifume-plugin-for-obs` フォルダを、OBS のプラグイン配置先（`C:\ProgramData\obs-studio\plugins`）にコピーします。
 3. inference 配布 zip を展開し、任意のフォルダに配置します。
-4. `kifume_inference.exe` を起動します。
-5. OBS を起動（または再起動）し、ソース追加画面で `Dice Magnifier` を追加します。
 
-注意:
+### 1. `kifume_inference.exe` を起動する
 
-- inference が起動していない場合、plugin は推論結果を取得できません。
+- 先に `kifume_inference.exe` を起動してください。
+- 起動していないと Dice Magnifier はダイス検出結果を受け取れません。
+
+### 2. OBS を起動し、Sources に Dice Magnifier を追加する
+
+- OBS を起動（または再起動）し、Sources で `Dice Magnifier` を追加します。
+
+### 3. Dice Magnifier のプロパティで Capture Source を選択する
+
+- Dice Magnifier のプロパティを開き、`Capture Source` を必ず設定してください。
+- どの映像ソースを検出対象にするかを、この設定で指定します。
+
+plugin のプロパティ設定:
+
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083116.png?raw=true" alt="Dice MagnifierのCapture Source設定画面" style="max-width: 100%; height: auto;">
+
+## 補足
+
+- プレイに使用しないダイスが画面に映らないようにしてください。
+- およそ3分に一度、kifu.meロゴが短く表示されます。
 - セキュリティソフトやファイアウォールの設定によりローカル通信が遮断される場合があります。
-
-### 3. 初回動作確認
-
-- inference 起動中に OBS へ plugin ソースを追加する
-- ソース画像内のダイスが表示されることを確認する
 
 ## ダウンロード
 
@@ -109,8 +130,9 @@ Dice Magnifier は、OBS Studio 上で ダイスを拡大表示するための�
 - plugin が OBS に表示されない:
   - 配置先フォルダ構成が正しいか確認する
   - OBS を再起動する
-- 推論結果が表示されない:
+- ダイスが表示されない:
   - `kifume_inference.exe` が起動しているか確認する
+  - Dice Magnifier の `Capture Source` が設定されているか確認する
   - ローカル通信が遮断されていないか確認する
 - 起動時にエラーが出る:
   - inference zip の展開漏れ（DLL や model ファイル不足）がないか確認する

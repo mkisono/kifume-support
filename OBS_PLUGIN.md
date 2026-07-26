@@ -12,12 +12,14 @@ lang: en
   <a href="{{ site.baseurl }}/OBS_PLUGIN_JP.html">日本語</a>
 </div>
 
-This page explains the features, setup steps, and terms of use for Dice Magnifier.
+This page explains the architecture, setup steps, and terms of use for Dice Magnifier.
 
 ## Table of Contents
 
 - [Feature Overview](#feature-overview)
+- [Architecture (Two Programs Work Together)](#architecture-two-programs-work-together)
 - [How to Use](#how-to-use)
+- [Notes](#notes)
 - [Downloads](#downloads)
 - [Terms of Use](#terms-of-use)
 - [Update Instructions](#update-instructions)
@@ -33,35 +35,54 @@ Main features:
 - Can be added and used as an OBS source
 - Can magnify the dice area from the image source selected in plugin properties
 
-Notes:
+OBS runtime example:
 
-- This plugin does not complete inference by itself. It requires kifume-inference to run together.
-- Current release packages target Windows x64.
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083056.png?raw=true" alt="Dice Magnifier running in OBS" style="max-width: 100%; height: auto;">
+
+## Architecture (Two Programs Work Together)
+
+Dice Magnifier works as a combination of two programs:
+
+- Dice Magnifier plugin:
+  - Handles on-screen dice display inside OBS.
+- kifume-inference:
+  - A separate program that detects dice in images.
+
+Because of this, the plugin alone is not enough. You need to run kifume-inference at the same time.
+
+Current release packages target Windows x64.
 
 ## How to Use
 
-### 1. Prerequisites
-
-- OBS Studio is installed
-- You have downloaded both the plugin zip and the inference zip
-
-### 2. Installation (Windows)
+### 0. Initial setup (first time only)
 
 1. Extract the plugin distribution zip.
 2. Copy the extracted `kifume-plugin-for-obs` folder to the OBS plugin directory (`C:\ProgramData\obs-studio\plugins`).
 3. Extract the inference distribution zip and place it in any folder.
-4. Start `kifume_inference.exe`.
-5. Start (or restart) OBS and add `Dice Magnifier` from the source add dialog.
 
-Notes:
+### 1. Start `kifume_inference.exe`
 
-- If inference is not running, the plugin cannot retrieve inference results.
+- Start `kifume_inference.exe` first.
+- If it is not running, Dice Magnifier cannot receive dice detection results.
+
+### 2. Start OBS and add Dice Magnifier to Sources
+
+- Start (or restart) OBS, then add `Dice Magnifier` from Sources.
+
+### 3. Open Dice Magnifier properties and set Capture Source
+
+- In Dice Magnifier properties, set `Capture Source`.
+- This setting tells the plugin which OBS source should be used for dice detection.
+
+Plugin property example:
+
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-07-23%20083116.png?raw=true" alt="Dice Magnifier Capture Source property" style="max-width: 100%; height: auto;">
+
+## Notes
+
+- Please keep dice that are not used in play out of the captured screen.
+- A short kifu.me logo appears about once every 3 minutes.
 - Local communication may be blocked by security software or firewall settings.
-
-### 3. First-run Check
-
-- Add the plugin source in OBS while inference is running
-- Confirm that dice in the source image are displayed
 
 ## Downloads
 
@@ -108,8 +129,9 @@ Additional references:
 - Plugin does not appear in OBS:
   - Verify the folder structure in the plugin directory
   - Restart OBS
-- Inference result is not displayed:
+- Dice is not displayed:
   - Confirm `kifume_inference.exe` is running
+  - Confirm `Capture Source` is set in Dice Magnifier properties
   - Confirm local communication is not blocked
 - Startup error occurs:
   - Check for missing files from inference zip extraction (DLLs or model files)
