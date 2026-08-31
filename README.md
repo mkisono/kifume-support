@@ -202,15 +202,17 @@ kifu.me records player moves using image recognition processing. Parts of the re
 
 In the example below, the dice roll read from image recognition was inconsistent with the actual play. Therefore, kifu.me corrected the read roll and marked it with red highlighting.
 
-<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.45.24.png?raw=true" alt="Example of dice highlighted in red" style="max-width: 100%; height: auto;">
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202026-08-31%20at%208.04.16.png?raw=true" alt="Example of dice highlighted in red" style="max-width: 100%; height: auto;">
 
 Dice rolls may be highlighted in red for the following reasons:
 
 - **Misrecognition due to dice reflection**: Dice reflection caused the image recognition to produce incorrect results
   - If the corrected roll matches the actual roll, no match record correction is needed
   - Common mix-ups include 11 and 13, or 22 and 26
+    - These records require particular attention and are therefore displayed with a red background as High importance records.
 - **Only one die recognized**: When image recognition could identify only one of the two dice
   - This is shown as 20, 50, etc. The roll needs correction
+    - These records require particular attention and are therefore displayed with a red background as High importance records.
 - **Correction due to illegal moves**: When actual play was an illegal move, the system corrected it to a different roll
   - In this case, you need to correct the roll to the actual one
 - **Dance misrecognition**: When dice are highlighted in red and the move shows "Cannot Move"
@@ -218,11 +220,9 @@ Dice rolls may be highlighted in red for the following reasons:
 
 ### When Moves Are Highlighted in Red
 
-In the example below, the number of checkers read from image recognition was inconsistent with the actual play. Therefore, kifu.me corrected the checker count and marked it with red highlighting.
+In the following example, the Blue player made an illegal move, so kifu.me was unable to find a consistent move.
 
-In this example, the blue player played 13/6 and there are 6 checkers on the 6-point, but kifu.me recognized 5 checkers, so a correction was made.
-
-<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202025-05-27%20at%2018.44.47.png?raw=true" alt="Example of move highlighted in red" style="max-width: 100%; height: auto;">
+<img src="https://github.com/mkisono/kifume-support/blob/main/image/Screenshot%202026-08-31%20at%208.05.59.png?raw=true" alt="Example of move highlighted in red" style="max-width: 100%; height: auto;">
 
 Moves may be highlighted in red for the following reasons:
 
@@ -230,6 +230,7 @@ Moves may be highlighted in red for the following reasons:
 - **"????" display**: Shown in the following cases:
   - When a player resigned on the final move and no actual move was made
   - When kifu.me could not find a consistent move with the recognized dice roll (possibly due to an illegal move)
+    - These records require particular attention and are therefore displayed with a red background as High importance records.
 
 ### Cube Actions
 
