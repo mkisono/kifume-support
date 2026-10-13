@@ -161,6 +161,11 @@ After the match, select the target match from the list on the home screen and pr
 </div>
 
 <div class="highlight-box">
-<p><strong>Q:</strong> About battery consumption</p>
-<p><strong>A:</strong> Since AI object detection is performed constantly, it consumes a lot of battery. We recommend using it with a charging cable connected for long matches.</p>
+<p><strong>Q:</strong> Which iPhone models are recommended?</p>
+<p><strong>A:</strong> An iPhone model equipped with an ultra-wide lens is recommended for optimal recording. iPhone 12 mini and iPhone 13 mini are especially recommended because their compact size makes them easy to position and set up.</p>
+</div>
+
+<div class="highlight-box">
+<p><strong>Q:</strong> How can I avoid battery-related interruptions?</p>
+<p><strong>A:</strong> AI object detection runs constantly and consumes a lot of battery. For long matches, use external power, such as a charging cable, to avoid interruptions caused by a low battery.</p>
 </div>

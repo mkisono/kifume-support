@@ -162,6 +162,11 @@ kifu.me Camera は App Store からインストールできます。
 </div>
 
 <div class="highlight-box">
-<p><strong>Q:</strong> バッテリー消費について</p>
-<p><strong>A:</strong> AIによる物体検出を常時行うため、バッテリーを多く消費します。長時間の試合では充電ケーブルを接続した状態での使用をお勧めします。</p>
+<p><strong>Q:</strong> おすすめのiPhoneモデルはどれですか？</p>
+<p><strong>A:</strong> 最適な撮影のため、超広角レンズを搭載したiPhoneをお勧めします。特にiPhone 12 miniとiPhone 13 miniは、小型で設置しやすいためおすすめです。</p>
+</div>
+
+<div class="highlight-box">
+<p><strong>Q:</strong> バッテリー切れによる中断を防ぐには？</p>
+<p><strong>A:</strong> AIによる物体検出を常時行うため、バッテリーを多く消費します。バッテリー切れによる中断を防ぐため、長時間の試合では充電ケーブルなどの外部電源に接続して使用することをお勧めします。</p>
 </div>
