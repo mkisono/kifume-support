@@ -120,7 +120,8 @@ On the recording screen, align the board while viewing the camera feed and recor
 ### 3. Recording Operations
 
 <ul>
-<li><strong>Start Recording</strong>: With the green frame displayed, press the record button (red circle) to start the match.</li>
+<li><strong>Automatic Recording</strong>: Recording starts automatically after the board remains aligned for 5 seconds. A countdown is shown during the last 3 seconds; tap the close button to cancel. If the board becomes misaligned, the countdown is canceled and starts again when alignment is restored. After canceling, automatic recording is re-armed once the board becomes misaligned and is aligned again.</li>
+<li><strong>Start Recording</strong>: You can also press the record button (red circle) while the green frame is displayed to start recording manually.</li>
 <li><strong>Pause/Resume</strong>: For breaks or interruptions, stop recording with the pause button and resume from where you left off with the resume button.</li>
 <li><strong>Finish</strong>: When the match is over, press the stop button to return to the home screen.</li>
 </ul>
@@ -161,6 +162,11 @@ After the match, select the target match from the list on the home screen and pr
 </div>
 
 <div class="highlight-box">
-<p><strong>Q:</strong> About battery consumption</p>
-<p><strong>A:</strong> Since AI object detection is performed constantly, it consumes a lot of battery. We recommend using it with a charging cable connected for long matches.</p>
+<p><strong>Q:</strong> Which iPhone models are recommended?</p>
+<p><strong>A:</strong> An iPhone model equipped with an ultra-wide lens is recommended for optimal recording. iPhone 12 mini and iPhone 13 mini are especially recommended because their compact size makes them easy to position and set up.</p>
+</div>
+
+<div class="highlight-box">
+<p><strong>Q:</strong> How can I avoid battery-related interruptions?</p>
+<p><strong>A:</strong> AI object detection runs constantly and consumes a lot of battery. For long matches, use external power, such as a charging cable, to avoid interruptions caused by a low battery.</p>
 </div>
